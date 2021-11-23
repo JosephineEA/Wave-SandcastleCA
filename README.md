@@ -15,9 +15,7 @@ Where,
 Our model wiil keep generating wave cells with height following this formula at each time step.
 
 ### Sandcastle
-We experiment on different shape of pyramids, including triangular pyramid, quadrangular pyramid, hexagonal pyramid and circular pyramid.
-
-Our model will generate a pyramid with sand cells and sand-water cells at the beginning of each experiment.
+We experiment on different shape of pyramids, including triangular pyramid, quadrangular pyramid, hexagonal pyramid and circular pyramid. Our model will generate a pyramid with sand cells and sand-water cells at the beginning of each experiment.
 
 ### Cell
 We will build a 3d CA model. Like the shape of Rubik's cube, each cells are consider to be next to 26 cells. There are 4 kinds of cells in our model: sand cell, wave call, sand-water cell and rain cell. 
