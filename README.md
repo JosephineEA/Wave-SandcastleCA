@@ -4,7 +4,13 @@ A wave Sandcastle Cellular Automata for MCM/ICM 2020 B. We were delighted by tea
 Run begin.m to go on experiments.
 
 ## Cellular Automata rule
+To discuss what shape of sandcastle foundation that will last the longest period of time on a seashore that experiences waves and tides, we build a cellular automata with simple but useful rules. The whole model and its rules in detail are show in *Cellular Automata Based Water-Sandcastle Model.pdf*, written in Chinese. 
 
+### Ground
+To simplify the model, ground cells are on the bottom of the space and cannot be moved.
+
+### Wave
+We use sine waves superposition to model wave. The formula for waves' height is as follows:    
 ![](http://latex.codecogs.com/svg.latex?h_w=\\begin{cases}max\\{w_wh(sin(\\frac{2\\pi}{d}i)+\\frac{sin(\\frac{\\pi}{d}i)}{1.8}),1\\},(4k+1)d<i<(4k+2)d,k=0,1,2,...\\\\0,else\\\\\\end{cases})    
 Where,    
 ![](http://latex.codecogs.com/svg.latex?w_w) is the weight of wave (a given parameter),        
