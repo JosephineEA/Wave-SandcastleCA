@@ -5,4 +5,4 @@ Run begin.m to go on experiments.
 
 ## Cellular Automata rule
 
-$$123$$
+![](http://latex.codecogs.com/svg.latex?1+1=2)
